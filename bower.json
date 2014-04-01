@@ -1,0 +1,9 @@
+{
+  "name": "vue-todo",
+  "private": true,
+  "dependencies": {
+    "jquery": "~1.11.0",
+    "vue": "~0.10.1"
+  },
+  "devDependencies": {}
+}
