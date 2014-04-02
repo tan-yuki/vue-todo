@@ -33,7 +33,7 @@
                         <div>
                             <input type="checkbox" v-model="completed">
                             <label v-on="dblclick: editTodo(this)">{{text}}</label>
-                            <input class="edit" v-on="blur: completeEditTodo(this)" type="text" name="todo">
+                            <input class="input" v-on="blur: completeEditTodo(this)" type="text" name="todo">
                             <button class="destroy" v-on="click: removeTodo(this)">Delete</button>
                         </div>
                     </li>

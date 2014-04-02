@@ -21,7 +21,7 @@
             editTodo: function(todo) {
                 todo.editing = true;
 
-                var $todo_text = $(todo.$el).find('input[type=text]');
+                var $todo_text = $(todo.$el).find('.input');
 
                 // input todo title
                 $todo_text.val(todo.text);
@@ -35,7 +35,7 @@
             completeEditTodo: function(todo) {
                 todo.editing = false;
 
-                var $todo_text = $(todo.$el).find('input[type=text]');
+                var $todo_text = $(todo.$el).find('.input');
 
                 // input todo title
                 todo.text = $todo_text.val() || '';
