@@ -32,10 +32,6 @@ li {
     padding: 0.2em 0;
 }
 
-#main .input {
-    display: none;
-}
-
 #main .completed label {
     color: #a9a9a9;
     text-decoration: line-through;
@@ -45,16 +41,7 @@ li {
     display: inline-block;
 }
 
-#main .editing label {
-    display: none;
-}
-
 #main .todo {
     height: 40px;
-    float: left;
-    clear: left;
 }
 
-#main .todo-list {
-    clear: both;
-}
